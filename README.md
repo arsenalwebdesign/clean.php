@@ -1,2 +1,3 @@
 # clean.php
-Criado por Deivison Arthur www.deivison.com.br
+/* Deivison Arthur - Script para limpar cache e log no Magento 1.7*/ www.deivison.com.br
+/* Jonatan Machado - Script para limpar cache e log no Magento editado com css e testado na 1.9*/
