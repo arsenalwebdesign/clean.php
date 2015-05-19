@@ -1,4 +1,4 @@
-# limpar cache e log do Magento, editado.
+# Script limpar cache e log do Magento.
 
 Jonatan Machado - Script para limpar cache e log do Magento editado, adicionado css e testado no Magento 1.9x
 
