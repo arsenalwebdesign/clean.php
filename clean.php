@@ -26,26 +26,27 @@ function clean_log_tables() {
   global $db;
 	
 	$tables = array(
-			  'aw_core_logger',
-        'dataflow_batch_export',
-        'dataflow_batch_import',
-        'log_customer',
-        'log_quote',
-        'log_summary',
-        'log_summary_type',
-        'log_url',
-        'log_url_info',
-        'log_visitor',
-        'log_visitor_info',
-        'log_visitor_online',
-        'index_event',
-        'report_event',
-        'report_viewed_product_index',
-        'report_compared_product_index',
-        'catalog_compare_item',
-        'catalogindex_aggregation',
-        'catalogindex_aggregation_tag',
-        'catalogindex_aggregation_to_tag'
+    'adminnotification_inbox',
+    'aw_core_logger',
+    'dataflow_batch_export',
+    'dataflow_batch_import',
+    'log_customer',
+    'log_quote',
+    'log_summary',
+    'log_summary_type',
+    'log_url',
+    'log_url_info',
+    'log_visitor',
+    'log_visitor_info',
+    'log_visitor_online',
+    'index_event',
+    'report_event',
+    'report_viewed_product_index',
+    'report_compared_product_index',
+    'catalog_compare_item',
+    'catalogindex_aggregation',
+    'catalogindex_aggregation_tag',
+    'catalogindex_aggregation_to_tag' 			  
 	);
 	
 	mysql_connect($db['host'], $db['user'], $db['pass']) or die(mysql_error());
@@ -62,20 +63,20 @@ function clean_log_tables() {
 
 function clean_var_directory() {
 	$dirs = array(
-		    'downloader/.cache/*',
-        'downloader/pearlib/cache/*',
-        'downloader/pearlib/download/*',
-        'media/css/',
-        'media/css_secure/',
-        'media/import/',
-        'media/js/',
-        'var/cache/',
-        'var/locks/',
-        'var/log/',
-        'var/report/',
-        'var/session/',
-        'includes/src/*',
-        'var/tmp/'
+    'downloader/.cache/*',
+    'downloader/pearlib/cache/*',
+    'downloader/pearlib/download/*',
+    'media/css/',
+    'media/css_secure/',
+    'media/import/',
+    'media/js/',
+    'var/cache/',
+    'var/locks/',
+    'var/log/',
+    'var/report/',
+    'var/session/',
+    'includes/src/*',
+    'var/tmp/'
 	);
   echo '<div class="title">Diret&oacute;rio var limpo</div>';
   echo'<div class="clean_var_directory"><ul>';
